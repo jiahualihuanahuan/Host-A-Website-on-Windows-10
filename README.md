@@ -16,6 +16,15 @@ the default path for website file is "C:/xampp/htdocs"
 ## Get domain name and link domain name to your public IP address
 
 ## Port Forwarding
+1. Make sure your server is connected to the router
+2. Go to 192.168.0.1 and log onto your Wifi router setting
+3. Under "Basic Settings", look for "Port Forwarding" tab
+4. Click "Add Rule"
+5. Select HTTP or HTTPS at "Common Application"
+6. Application Name = HTTP/HTTPS, Protocol = TCP, Public Port Range = 80/443 will automatically filled for you
+7. Private Port Range is also 80/443
+8. Local IP Address is the IP address your machine currently has. We will set it to static later.
+9. Apply
 
 ## Configuration file change to enable ssl certificate
 1. Find "httpd-ssl.conf" file
