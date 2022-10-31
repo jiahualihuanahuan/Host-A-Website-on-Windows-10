@@ -53,6 +53,8 @@ SSLEngine on
 
 **SSLCertificateChainFile "C:/xampp/apache/ssl/xxxxxxx_www.your_domain_name.domain_chain.crt"**
 
+3. copy and paste your SSL certificate file, key file, chain file to the above location
+
 ## How to set a static IP address
 1. Go to Control Panel -> Network and Internet -> Network and Sharing Center ->Change adapter settings
 2. Select the adapter you are currently using (e.g. Ethernet or Wi-Fi) -> right click ->Properties
