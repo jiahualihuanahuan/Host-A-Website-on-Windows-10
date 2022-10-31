@@ -60,7 +60,8 @@ SSLEngine on
 2. Select the adapter you are currently using (e.g. Ethernet or Wi-Fi) -> right click ->Properties
 3. Double click on Internet Protocol Version 4 (TCP/IPv4)
 4. Select Use the following IP address:
-IP address: 192.168.0.14
+
+IP address: 192.168.0.xx (this is your server's local IP address)
 
 Subnet mask: 255.255.255.0
 
